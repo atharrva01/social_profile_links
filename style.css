@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #141414;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    background-color: #1f1f1f;
+    padding: 20px;
+    border-radius: 1.5rem;
+    border: none;
+    width: 350px;
+    box-shadow: 2px 2px 4px #000;
+}
+.Profile_pic{
+    width: 6.5rem;
+    height: 7rem;
+    border-radius: 100%;
+    margin-top: 0.5rem;
+    box-shadow: 2px 2px 9px #000;
+
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h1{
+    color: aliceblue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:2rem;
+    margin-top: 0.5rem;
+}
+.location{
+    color: rgb(229, 255, 0);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:0.8rem;
+    margin-top: 0.1rem;
+    font-weight: bolder;
+}
+.description{
+    color: rgb(186, 186, 186);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:0.7rem;
+    margin-top: 1rem;
+}
+.buttons{
+    background-color: rgb(186, 186, 186);
+    padding: 5px;
+    border: none;
+    display: flex;
+    border-radius: 12px;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.buttons:hover{
+    background-color: #fff;
+    transform:scale(1.1,1.2);
+    transform: rotate3d(10,10,10,10deg);
+    transition: scale,ease-in-out,0.5s;
+}
+.buttons p{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.card a {
+    text-decoration: none;
+}
