@@ -16,12 +16,14 @@ body{
     padding: 20px;
     border-radius: 1.5rem;
     border: none;
-    width: 350px;
+    max-width: 350px;
     box-shadow: 2px 2px 4px #000;
 }
 .Profile_pic{
-    width: 6.5rem;
-    height: 7rem;
+    width: 30vw;
+    height: 30vw;
+    max-width: 6.5rem;
+    max-height: 7rem;
     border-radius: 100%;
     margin-top: 0.5rem;
     box-shadow: 2px 2px 9px #000;
@@ -76,4 +78,33 @@ h1{
 }
 .card a {
     text-decoration: none;
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .location {
+        font-size: 0.7rem;
+    }
+
+    .description {
+        font-size: 0.65rem;
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    .buttons p {
+        font-size: 0.75rem;
+    }
+
+    .buttons {
+        padding: 8px;
+    }
+
+    body {
+        padding: 1rem;
+        height: auto;
+    }
 }
